@@ -1,13 +1,13 @@
 /* Change the background of the entire visible page */
 body {
-    background-color: #d9afc4;
+    background-color: #d9afc4; /* Light pink */
 }
 
 /* Style for all paragraphs */
 p {
     color: darkred;
     font-size: 16px;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Times New Roman', serif;
 }
 
 /* Style for the main heading */
