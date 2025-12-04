@@ -1,13 +1,13 @@
 /* Change the background of the entire visible page */
 body {
-    background-color: #fca3ff; /*Light magenta*/
+    background-color: #d9afc4;
 }
 
 /* Style for all paragraphs */
 p {
-    color: darkgreen;
+    color: darkred;
     font-size: 16px;
-    font-family: 'Times New Roman', serif;
+    font-family: 'EB Garamond', serif;
 }
 
 /* Style for the main heading */
@@ -15,3 +15,4 @@ h1 {
     text-align: center; /* Puts the heading in the middle */
     border: 2px solid red; /* Adds an red border around the heading */
     padding: 10px; /* Adds space inside the border */
+}
