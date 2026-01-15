@@ -1,6 +1,6 @@
 /* Change the background of the entire visible page */
 body {
-    background-color: #d9afc4; /* Light pink */
+    background-color: ##ffdfea; /* Light pink */
 }
 
 /* Style for all paragraphs */
@@ -17,7 +17,7 @@ h1 {
     padding: 10px; /* Adds space inside the border */
 }
 #list-of-fav-books {
-        color: red;
+        color: darkred;
         font-size: 16px;
         font-family: 'Times New Roman', serif;
 }
