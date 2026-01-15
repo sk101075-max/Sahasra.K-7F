@@ -16,3 +16,9 @@ h1 {
     border: 2px solid darkred; /* Adds an red border around the heading */
     padding: 10px; /* Adds space inside the border */
 }
+#list-of-fav-books {
+        color: red;
+        font-size: 16px;
+        font-family: 'Times New Roman', serif;
+}
+
