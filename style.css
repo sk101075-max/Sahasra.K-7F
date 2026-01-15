@@ -1,6 +1,6 @@
 /* Change the background of the entire visible page */
 body {
-    background-color: #f198b3; /* Light pink */
+    background-color: #f5bbcc; /* Light pink */
 }
 
 /* Style for all paragraphs */
@@ -21,4 +21,3 @@ h1 {
         font-size: 16px;
         font-family: 'Times New Roman', serif;
 }
-
