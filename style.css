@@ -21,3 +21,29 @@ h1 {
         font-size: 16px;
         font-family: 'Times New Roman', serif;
 }
+.hidden-content {
+  display: none;
+}
+
+/* Show the content when the sibling checkbox is checked */
+input[type="checkbox"]:checked + label + .hidden-content {
+  display: block;
+}
+
+/* Optional: style the button */
+.toggle-button {
+  cursor: pointer;
+  padding: 3px 10px;
+  background-color: #ff0000a4;
+  color: rgb(255, 255, 255);
+  border-radius: 1px;
+}
+
+
+.toggle-button {
+  cursor: pointer;
+  padding: 3px 10px;
+  background-color: #ff0000a4;
+  color: rgb(255, 255, 255);
+  border-radius: 1px;
+}
