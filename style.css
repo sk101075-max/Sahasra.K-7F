@@ -68,3 +68,6 @@ input[type="checkbox"]:checked + label + .hidden-content {
     transform: translateX(-100%);
   }
 }
+.marquee img:hover {
+  animation-play-state: paused;
+}
