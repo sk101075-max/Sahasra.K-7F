@@ -47,3 +47,24 @@ input[type="checkbox"]:checked + label + .hidden-content {
   color: rgb(255, 255, 255);
   border-radius: 1px;
 }
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee img {
+  display: inline-block;
+  width: 200px; /* adjust size if you want */
+  animation: scroll-left 10s linear infinite;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
