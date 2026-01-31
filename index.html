@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>My Favourite Book Webpage</title>
+    <script>
+        function sayHello(elementName) {
+            var a = document.getElementById(elementName);
+            a.style.display = (a.style.display === 'none') ? 'inline' : 'none';
+        }
+    </script>
 </head>
 <body>
     <h1>My Favourite Book (A Book Review)</h1>
@@ -32,8 +38,7 @@
      <p>I read this book a while ago, and it was actually <em>really good</em>! I would give it a <strong>solid</strong> 8.5/10!😊</p>
   <Section><h2>Trivia!!!</h2>
       <p>Who is the author of Daughter of the Siren Queen?</p>
-     <button onclick="var a = document.getElementById('a1');
-      a.style.display = (a.style.display === 'none') ? 'inline' : 'none';">
+     <button onclick="sayHello('a1')">
       Show/Hide Answer
     </button>
     <span id="a1" class="answer" style="display:none; color:green;">
